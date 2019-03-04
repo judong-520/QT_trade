@@ -1,0 +1,15 @@
+时间：2018-11-29 21:17:53，异常信息：<urlopen error timed out>
+时间：2018-11-30 00:03:38，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:03:38，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:04:07，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:04:07，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:21，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:21，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:40，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:40，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:55，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:22:55，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:23:53，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:23:53，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:24:51，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
+时间：2018-11-30 00:24:52，异常信息：<urlopen error [Errno 11001] getaddrinfo failed>
