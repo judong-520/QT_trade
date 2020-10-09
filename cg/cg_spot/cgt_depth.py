@@ -20,7 +20,7 @@ def refresh_quantity(api_key, secret_key, price_low, price_high, symbol='cgt_eth
 
 
 if __name__ == '__main__':
-    api_key = 't58MnHss3YLl'
-    secret_key = 'EEuJPo9fcHYl'
+    api_key = ''
+    secret_key = ''
     refresh_quantity(api_key, secret_key, 0.000558, 0.000568)
 

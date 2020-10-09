@@ -88,70 +88,7 @@ async def repeal_orders(side, symbol, api_key, secret_key, num=25):
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     tasks = [
-        # 鞠东
-        # repeal_orders(1, 'eth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q'),
-        # repeal_orders(2, 'eth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q'),
-        #
-        # repeal_orders(1, 'cgt_eth', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q', num=50),
-        # repeal_orders(2, 'cgt_eth', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q', num=0),
-
-        # 邓志强
-        # repeal_orders(1, 'btc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB'),
-        # repeal_orders(2, 'btc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB'),
-        # repeal_orders(1, 'ltc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB'),
-        # repeal_orders(2, 'ltc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB'),
-
-        # 王庆磊
-        # repeal_orders(1, 'ltc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=15),
-        # repeal_orders(2, 'ltc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=15),
-
-        # repeal_orders(1, 'cgt_eth', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=50),
-        repeal_orders(2, 'cgt_eth', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=0),
-
-        # 堉博文
-        # repeal_orders(1, 'eth_btc', 'WYKP0c3Eu2IO', 'Lehrk7QBal55', num=15),
-        # repeal_orders(2, 'eth_btc', 'WYKP0c3Eu2IO', 'Lehrk7QBal55', num=15),
-
-        # 杨熙然
-        # repeal_orders(1, 'newos_eth', 'w2hItHQpAaMf', 'tssEhCRv3Y1n'),
-        # repeal_orders(2, 'newos_eth', 'w2hItHQpAaMf', 'tssEhCRv3Y1n'),
-        #
-        # # 胥新新
-        # repeal_orders(1, 'newos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'newos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'soc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'soc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'eos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'eos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'omg_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'omg_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'zil_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'zil_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'ocn_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'ocn_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'gnt_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'gnt_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'iost_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'iost_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'dta_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'dta_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'cvc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'cvc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'ae_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'ae_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        #
-        # repeal_orders(1, 'bat_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
-        # repeal_orders(2, 'bat_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg'),
+        repeal_orders(2, 'cgt_eth', '', '', num=0),
     ]
     loop.run_until_complete(asyncio.wait(tasks))
     loop.close()

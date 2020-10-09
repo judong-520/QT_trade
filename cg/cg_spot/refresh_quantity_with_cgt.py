@@ -63,8 +63,8 @@ def refresh_quantity(api_key, secret_key, symbol='cgt_eth', cg=CgCoin()):
 
 
 if __name__ == '__main__':
-    api_key = 'UQKf7SoPPCEY'
-    api_secret = 'tBLWXqyHeb6q'
+    api_key = ''
+    api_secret = ''
     while True:
         refresh_quantity(api_key, api_secret)
         time.sleep(20)

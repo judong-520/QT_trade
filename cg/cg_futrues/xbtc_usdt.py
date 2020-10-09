@@ -11,7 +11,7 @@ from cg.cg_futrues.service import CgCoin
 from cg.cg_spot.huobi_exchange import get_market_depth
 
 f_cg = CgCoin()
-f_cg.auth('UQKf7SoPPCEY', 'tBLWXqyHeb6q')
+f_cg.auth('', '')
 
 
 if __name__ == '__main__':

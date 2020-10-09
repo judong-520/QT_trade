@@ -6,8 +6,8 @@ from bcex.service import Bcex
 
 
 symbol = 'newos2eth'
-api_key = "a10c97e18377e3ae66cd1bc27f32f97536453d6cf4dcd88532a5f8ead5179802"
-secret_key = "5bf7-d27aa-9c937-3626-5654"
+api_key = ""
+secret_key = ""
 
 bcex = Bcex(api_key, secret_key)
 

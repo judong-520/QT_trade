@@ -1,7 +1,7 @@
 from dg.service import Digi
 
-api_key = '5af415c00a1e5'
-api_secret = '6a29ac697137bc0e66d613ec110b105805af415c5'
+api_key = ''
+api_secret = ''
 member_id = 171940386
 dg = Digi(api_key, api_secret)
 

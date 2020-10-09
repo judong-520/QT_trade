@@ -72,33 +72,33 @@ def fill_depth(floor, upper, symbol, api_key, secret_key, digit=4, number=20, ex
 
 
 if __name__ == '__main__':
-    fill_depth(0.1, 0.3, 'xeth_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=2)
-    fill_depth(0.03, 0.08, 'xbtc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=2)
-    fill_depth(3, 10, 'xeos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=4)
-    fill_depth(6, 10, 'xxrp_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=4)
+    fill_depth(0.1, 0.3, 'xeth_usdt', '', '', digit=2)
+    fill_depth(0.03, 0.08, 'xbtc_usdt', '', '', digit=2)
+    fill_depth(3, 10, 'xeos_usdt', '', '', digit=4)
+    fill_depth(6, 10, 'xxrp_usdt', '', '', digit=4)
     # https: // demo.i.cg.net
-    fill_depth(0.1, 0.3, 'xeth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q', digit=2, exchange=CgCoin(base_url='https://demo.i.cg.net'))
-    fill_depth(0.03, 0.08, 'xbtc_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=2, exchange=CgCoin(base_url='https://demo.i.cg.net'))
-    fill_depth(0.12, 0.15, 'eth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
-    # fill_depth(1, 3, 'cgt_eth', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q', digit=6)
-    fill_depth(5, 20, 'xrp_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
+    fill_depth(0.1, 0.3, 'xeth_usdt', '', '', digit=2, exchange=CgCoin(base_url='https://demo.i.cg.net'))
+    fill_depth(0.03, 0.08, 'xbtc_usdt', '', '', digit=2, exchange=CgCoin(base_url='https://demo.i.cg.net'))
+    fill_depth(0.12, 0.15, 'eth_usdt', '', '')
+    # fill_depth(1, 3, 'cgt_eth', '', '', digit=6)
+    fill_depth(5, 20, 'xrp_usdt', '', '')
 
-    fill_depth(0.002, 0.003, 'btc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB')
+    fill_depth(0.002, 0.003, 'btc_usdt', '', '')
 
-    fill_depth(0.002, 0.003, 'eth_btc', 'WYKP0c3Eu2IO', 'Lehrk7QBal55', digit=8)
+    fill_depth(0.002, 0.003, 'eth_btc', '', '', digit=8)
 
-    fill_depth(0.35, 0.45, 'ltc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl')
+    fill_depth(0.35, 0.45, 'ltc_usdt', '', '')
 
-    fill_depth(100, 200, 'newos_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(200, 250, 'zil_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(1200, 1500, 'dta_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(400, 600, 'ocn_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(20, 30, 'gnt_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg')
-    fill_depth(2, 3, 'eos_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg')
-    fill_depth(4, 5, 'ae_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(15, 20, 'bat_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
-    fill_depth(280, 350, 'iost_usdt', 't14p3fPVY5dv', 'UsF1rrABRTHg', digit=8)
+    fill_depth(100, 200, 'newos_eth', '', '', digit=8)
+    fill_depth(200, 250, 'zil_usdt', '', '', digit=8)
+    fill_depth(1200, 1500, 'dta_usdt', '', '', digit=8)
+    fill_depth(400, 600, 'ocn_usdt', '', '', digit=8)
+    fill_depth(20, 30, 'gnt_usdt', '', '')
+    fill_depth(2, 3, 'eos_usdt', '', '')
+    fill_depth(4, 5, 'ae_eth', '', '', digit=8)
+    fill_depth(15, 20, 'bat_eth', '', '', digit=8)
+    fill_depth(280, 350, 'iost_usdt', '', '', digit=8)
 
-    fill_depth(1500, 1800, 'newos_usdt', 'w2hItHQpAaMf', 'tssEhCRv3Y1n', digit=6)
+    fill_depth(1500, 1800, 'newos_usdt', '', '', digit=6)
 
 

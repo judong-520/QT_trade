@@ -82,39 +82,7 @@ def repeal_bid(symbol, api_key, secret_key, num=25):
 
 
 def tasks():
-    # 邓志强
-    repeal_ask('btc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB')
-    repeal_bid('btc_usdt', 'j6sVMtrKDBnx', '0tjriE7pYSFB')
-
-    # 鞠东
-    repeal_ask('eth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
-    repeal_bid('eth_usdt', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
-    #
-    repeal_ask('cgt_eth', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
-    repeal_bid('cgt_eth', 'UQKf7SoPPCEY', 'tBLWXqyHeb6q')
-
-    # 王庆磊
-    # repeal_ask('xbtc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=35)
-    # repeal_bid('xbtc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=35)
-    #
-    # repeal_ask('xeth_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=35)
-    # repeal_bid('xeth_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl', num=35)
-
-    repeal_ask('ltc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl')
-    repeal_bid('ltc_usdt', 't58MnHss3YLl', 'EEuJPo9fcHYl')
-
-    # 堉博文
-    repeal_ask('eth_btc', 'WYKP0c3Eu2IO', 'Lehrk7QBal55')
-    repeal_bid('eth_btc', 'WYKP0c3Eu2IO', 'Lehrk7QBal55')
-
-    # 杨熙然
-    repeal_ask('newos_usdt', 'w2hItHQpAaMf', 'tssEhCRv3Y1n')
-    repeal_bid('newos_usdt', 'w2hItHQpAaMf', 'tssEhCRv3Y1n')
-
-    # 胥新鑫
-    repeal_ask('newos_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg')
-    repeal_bid('newos_eth', 't14p3fPVY5dv', 'UsF1rrABRTHg')
-
+    pass
 
 if __name__ == '__main__':
     while True:
